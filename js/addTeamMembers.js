@@ -33,7 +33,7 @@ function addTeamMember(name, imageURL){
     var outerDiv = document.createElement('div');
     var innerDiv = document.createElement('div');
     outerDiv.className = 'col-xs-12 col-sm-2 col-md';
-    innerDiv.className = 'box whitebox fontColor';
+    innerDiv.className = 'box whitebox teamBox fontColor';
 
     var image = document.createElement("img");
     image.src = imageURL;
@@ -44,7 +44,8 @@ function addTeamMember(name, imageURL){
     var break2 = document.createElement('br');
 
     var header = document.createElement('h4');
-    header.innerHTML = name;
+    const splitName = name.split(" ");
+    header.innerHTML = `${splitName[0]}<br>${splitName[1]}`;
 
     innerDiv.appendChild(image);  
     innerDiv.appendChild(break1);  
