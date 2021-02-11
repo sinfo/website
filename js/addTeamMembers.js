@@ -1,32 +1,34 @@
-let memberDict = {'André Pelica': 'images/team/AndreiaPereira.jpg', 
-'Andreia Pereira': 'images/team/AndrePelica.jpg',
-'Baltasar Dinis': 'images/team/BaltasarDinis.jpg',
-'Beatriz Feliciano': 'images/team/BeatrizFeliciano.jpg',
-'Beatriz Toscano': 'images/team/BeatrizToscano.jpg',
-'Bernardo Lourenço': 'images/team/BernardoLourenco.jpg',
-'Catarina Alegria': 'images/team/CatarinaAlegria.jpg',
-'Daniela Regina': 'images/team/DanielaRegina.jpg',
-'Diogo Pacheco': 'images/team/DiogoPacheco.jpg',
-'Gastão Faria': 'images/team/GastaoFaria.jpg',
-'Joana Ferreira': 'images/team/JoanaFerreiraJPG.jpg',
-'João Andrade': 'images/team/JoãoAndrade.jpg',
-'João Dias': 'images/team/JoaoDiasJPG.jpg',
-'João Pina': 'images/team/JoaoPina.jpg',
-'João Rodrigues': 'images/team/JoãoRodrigues.jpg',
-'João Sanches': 'images/team/JoaoSanches.jpg',
-'Madalena Santos': 'images/team/MadalenaSantos.jpg',
-'Margarida Ferro': 'images/team/MargaridaFerro.jpg',
-'Maria Forjó': 'images/team/MariaForjo.jpg',
-'Mariana Cintrão': 'images/team/MarianaCintrao.jpg',
-'Marta Ambrósio': 'images/team/MartaAmbrosioJPG.jpg',
-'Marta Ferreira': 'images/team/MartaFerreira.jpg',
-'Miguel Regouga': 'images/team/MiguelRegouga.jpg',
-'Miguel Rocha': 'images/team/MiguelRochaJPG.jpg',
-'Miguel Trinca': 'images/team/Miguel TrincaJPG.jpg',
-'Pedro Maximino': 'images/team/PedroMaximino.jpg',
-'Pedro Nunes': 'images/team/PedroNunes.jpg',
-'Pedro Rodrigues': 'images/team/PedroRodrigues.jpg',
-'Sara Franco': 'images/team/SaraFranco.jpg'
+var urlDO = "https://sinfo.ams3.cdn.digitaloceanspaces.com/static/28-sinfo/fotosComissao/";
+
+let memberDict = {'André Pelica': urlDO + 'AndrePelica.jpg', 
+'Andreia Pereira': urlDO + 'AndreiaPereira.jpg',
+'Baltasar Dinis': urlDO + 'BaltasarDinis.jpg',
+'Beatriz Feliciano': urlDO + 'BeatrizFeliciano.jpg',
+'Beatriz Toscano': urlDO + 'BeatrizToscano.jpg',
+'Bernardo Lourenço': urlDO + 'BernardoLourenco.jpg',
+'Catarina Alegria': urlDO + 'CatarinaAlegria.jpg',
+'Daniela Regina': urlDO + 'DanielaRegina.jpg',
+'Diogo Pacheco': urlDO + 'DiogoPacheco.jpg',
+'Gastão Faria': urlDO + 'GastaoFaria.jpg',
+'Joana Ferreira': urlDO + 'JoanaFerreira.jpg',
+'João Andrade': urlDO + 'JoãoAndrade.jpg',
+'João Dias': urlDO + 'JoaoDias.jpg',
+'João Pina': urlDO + 'JoaoPina.jpg',
+'João Rodrigues': urlDO + 'JoãoRodrigues.jpg',
+'João Sanches': urlDO + 'JoaoSanches.jpg',
+'Madalena Santos': urlDO + 'MadalenaSantos.jpg',
+'Margarida Ferro': urlDO + 'MargaridaFerro.jpg',
+'Maria Forjó': urlDO + 'MariaForjo.jpg',
+'Mariana Cintrão': urlDO + 'MarianaCintrao.jpg',
+'Marta Ambrósio': urlDO + 'MartaAmbrosio.jpg',
+'Marta Ferreira': urlDO + 'MartaFerreira.jpg',
+'Miguel Regouga': urlDO + 'MiguelRegouga.jpg',
+'Miguel Rocha': urlDO + 'MiguelRocha.jpg',
+'Miguel Trinca': urlDO + 'Miguel Trinca.jpg',
+'Pedro Maximino': urlDO + 'PedroMaximino.jpg',
+'Pedro Nunes': urlDO + 'PedroNunes.jpg',
+'Pedro Rodrigues': urlDO + 'PedroRodrigues.jpg',
+'Sara Franco': urlDO + 'SaraFranco.jpg'
 };
 
 function addTeamMember(name, imageURL){
@@ -60,5 +62,5 @@ function addTeamMember(name, imageURL){
 function addMembers(){
     for(var name in memberDict) {
         addTeamMember(name, memberDict[name]);
-      }
+    }
 }
