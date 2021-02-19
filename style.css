@@ -308,6 +308,7 @@ input:-webkit-autofill:focus {
 
 .sponsors {
   padding: 20px 30px;
+  cursor: pointer;
 }
 
 .sponsor-link {
