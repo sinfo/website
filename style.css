@@ -372,6 +372,24 @@ input:-webkit-autofill:focus {
   color: #ffffff;
 }
 
+.announcement-top-bar {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.announcement-top-bar p {
+  margin: 0;
+}
+
+.announcement-top-bar.alert-dismissible .close {
+  top: 50%;
+  transform: translateY(-55%);
+}
+
 .mainmenu-area .logo {
   text-transform: uppercase;
   letter-spacing: 2px;
