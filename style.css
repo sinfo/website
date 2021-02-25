@@ -352,6 +352,10 @@ input:-webkit-autofill:focus {
   margin-bottom: 20px;
 }
 
+.box .box-icon-sm {
+  margin-bottom: 20px;
+}
+
 .box:hover .box-icon img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
