@@ -309,6 +309,18 @@ input:-webkit-autofill:focus {
   transform: translateY(0);
 }
 
+.box-stands {
+  padding: 10px 10px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 0 0 #ffffff;
+  box-shadow: 0 0 0 0 #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
 .boxShadow {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
@@ -324,6 +336,10 @@ input:-webkit-autofill:focus {
 .sponsors {
   padding: 20px 30px;
   cursor: pointer;
+}
+
+.stands {
+  width: 15%;
 }
 
 .sponsor-link {
