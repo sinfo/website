@@ -14,7 +14,6 @@
 }
 
 a {
-  
   /*outline: none;*/
   -webkit-transition: color 0.2s ease;
   -moz-transition: color 0.2s ease;
@@ -30,7 +29,7 @@ a:focus,
 a:hover {
   text-decoration: none;
   outline: none;
-  color: #153355;
+  color: #1a2f4a;
 }
 
 img {
@@ -42,7 +41,7 @@ h1,
 h2,
 h3,
 h4,
-h5{
+h5 {
   margin: 0 0 10px;
   font-weight: 600;
 }
@@ -51,13 +50,11 @@ h6 {
   font-weight: 500;
 }
 
-.special-h6{
+.special-h6 {
   margin: 0 0 10px;
   font-weight: 500;
   font-size: 12px;
 }
-
-
 
 html,
 body {
@@ -142,7 +139,7 @@ input:-webkit-autofill:focus {
   text-align: center;
   line-height: 2.5em;
   background-color: #ffffff;
-  color: #153355;
+  color: #1a2f4a;
   border-radius: 100px;
   -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
@@ -150,7 +147,7 @@ input:-webkit-autofill:focus {
 }
 
 .social-menu li a:hover {
-  background-color: #153355;
+  background-color: #1a2f4a;
   color: #ffffff;
   -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
@@ -168,10 +165,10 @@ input:-webkit-autofill:focus {
     left top,
     left bottom,
     from(#2b5285),
-    to(#153355)
+    to(#1a2f4a)
   );
   background: linear-gradient(to bottom, #0e2947 0%, #2b5285 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B5285', endColorstr='#153355', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B5285', endColorstr='#1a2f4a', GradientType=0);
   color: #ffffff;
 }
 
@@ -202,7 +199,7 @@ input:-webkit-autofill:focus {
 .button.white,
 .button:hover {
   background-color: #ffffff;
-  color: #153355;
+  color: #1a2f4a;
 }
 
 .button.white:hover {
@@ -243,7 +240,7 @@ input:-webkit-autofill:focus {
 }
 
 .deadlinesBackground {
-  background: #153355;
+  background: #1a2f4a;
 }
 /**
 *Box-style
@@ -343,7 +340,6 @@ input:-webkit-autofill:focus {
 }
 
 .sponsor-link {
-  
   display: block;
   position: relative;
   left: 0;
@@ -473,7 +469,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-  background-color: #153355;
+  background-color: #1a2f4a;
 }
 
 /**
@@ -482,8 +478,8 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-  background: #000000 url("images/sinfoStage.jpg") no-repeat scroll center center /
-    cover;
+  background: #000000 url("images/sinfoStage.jpg") no-repeat scroll center
+    center / cover;
 }
 
 .overlay {
@@ -764,7 +760,7 @@ input:-webkit-autofill:focus {
 ***/
 
 .price-area {
-  background: #153355;
+  background: #1a2f4a;
 }
 
 .wh {
@@ -1000,10 +996,10 @@ preloader
     left top,
     left bottom,
     from(#2b5285),
-    to(#153355)
+    to(#1a2f4a)
   );
-  background: linear-gradient(to bottom, #2b5285 0%, #153355 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B5285', endColorstr='#153355', GradientType=0);
+  background: linear-gradient(to bottom, #2b5285 0%, #1a2f4a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B5285', endColorstr='#1a2f4a', GradientType=0);
   z-index: 99999999999;
 }
 
