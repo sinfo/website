@@ -6,7 +6,6 @@
   -webkit-font-smoothing: antialiased !important;
 }
 
-
 /*body {
   color: #51545b;
   line-height: 1.5625;
@@ -16,11 +15,11 @@
   text-align: center;
 }
 
-.h6{
+.h6 {
   color: #262627;
 }
 
-h6{
+h6 {
   margin: 0;
   padding: 0;
   border: 0;
@@ -28,7 +27,7 @@ h6{
   vertical-align: baseline;
 }
 
-p{
+p {
   /* margin: 0; */
   padding: 0;
   border: 0;
@@ -51,16 +50,9 @@ h6 {
   font-size: 20px;
 }
 
-h6{
+h6 {
   color: #262627;
 }
-
-
-
-
-
-
-
 
 /* ----------------------------------------------------------------------------
     Common styles
@@ -245,10 +237,9 @@ input.header.header-color .navigation-header .buy-btn,
 .nav2.nav2-schedule > a,
 .nav2.nav2-schedule > a:hover,
 .nav2.nav2-schedule > a:active,
-.nav2.nav2-schedule > a:focus{
+.nav2.nav2-schedule > a:focus {
   color: #ffffff;
 }
-
 
 ::selection {
   color: #ffffff;
@@ -775,10 +766,14 @@ ul {
   -webkit-box-shadow: inset 0 65px 0 transparent;
   -moz-box-shadow: inset 0 65px 0 transparent;
   box-shadow: inset 0 65px 0 transparent;
-  -webkit-transition: color 0.2s ease, border 0.2s ease, background 0.25s ease, -webkit-box-shadow 0.2s ease;
-  -moz-transition: color 0.2s ease, border 0.2s ease, background 0.25s ease, -moz-box-shadow 0.2s ease;
-  -o-transition: color 0.2s ease, border 0.2s ease, background 0.25s ease, box-shadow 0.2s ease;
-  transition: color 0.2s ease, border 0.2s ease, background 0.25s ease, box-shadow 0.2s ease;
+  -webkit-transition: color 0.2s ease, border 0.2s ease, background 0.25s ease,
+    -webkit-box-shadow 0.2s ease;
+  -moz-transition: color 0.2s ease, border 0.2s ease, background 0.25s ease,
+    -moz-box-shadow 0.2s ease;
+  -o-transition: color 0.2s ease, border 0.2s ease, background 0.25s ease,
+    box-shadow 0.2s ease;
+  transition: color 0.2s ease, border 0.2s ease, background 0.25s ease,
+    box-shadow 0.2s ease;
   position: relative;
   margin: 0 7px;
   vertical-align: middle;
@@ -876,7 +871,8 @@ ul {
   color: #ffffff;
 }
 .btn.btn-outline-clr:not(:hover):not(:hover):not(:active):not(.hovered):not(.pressed),
-.header .buy-btn:not(:hover):not(:hover):not(:active):not(.hovered):not(.pressed) {
+.header
+  .buy-btn:not(:hover):not(:hover):not(:active):not(.hovered):not(.pressed) {
   background-color: transparent;
 }
 .btn.btn-outline-clr .fa,
@@ -1236,7 +1232,8 @@ button.btn.btn-block {
 .schedule .schedule-item .schedule-item-toggle .title {
   position: relative;
   margin: 0;
-  padding: 5px 35px 19px 0;
+  padding: 5px 35px 10px 0;
+  /* padding bottom was 19px */
   border-bottom: 1px solid #eff1f5;
 }
 .schedule .schedule-item .schedule-item-toggle .title .icon {
@@ -1267,7 +1264,7 @@ button.btn.btn-block {
   display: inline-block;
   font-size: 11px;
   text-transform: uppercase;
- /* letter-spacing: 0.5em;*/
+  /* letter-spacing: 0.5em;*/
 }
 .download-schedule-btn {
   -webkit-transition: color 0.2s ease, background 0.2s ease, border 0.2s ease;
@@ -1966,7 +1963,6 @@ button.btn.btn-block {
   }
 }
 
-
 /* ----------------------------------------------------------------------------
     Panels
 ---------------------------------------------------------------------------- */
@@ -2084,8 +2080,6 @@ button.btn.btn-block {
   }
 }
 
-
-
 /* ----------------------------------------------------------------------------
     Tables
 ---------------------------------------------------------------------------- */
@@ -2128,7 +2122,6 @@ button.btn.btn-block {
     padding: 10px;
   }
 }
-
 
 /* ----------------------------------------------------------------------------
     Modal boxes
@@ -2350,7 +2343,13 @@ button.btn.btn-block {
 .gradient-overlay:before {
   background: #9001a5;
   background: -moz-linear-gradient(top, #9001a5 0%, #10171a 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9001a5), color-stop(100%, #10171a));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #9001a5),
+    color-stop(100%, #10171a)
+  );
   background: -webkit-linear-gradient(top, #9001a5 0%, #10171a 100%);
   background: -o-linear-gradient(top, #9001a5 0%, #10171a 100%);
   background: -ms-linear-gradient(top, #9001a5 0%, #10171a 100%);
@@ -2604,8 +2603,7 @@ button.btn.btn-block {
   }
 }
 
-.companyName{
+.companyName {
   font-weight: 600;
   color: #2f60c3;
 }
-
