@@ -1768,6 +1768,9 @@ button.btn.btn-block {
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(0px);
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-perspective: 1000;
   }
   .nav2:before,
   .nav2.nav2-tabs:before,
