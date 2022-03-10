@@ -1749,7 +1749,7 @@ button.btn.btn-block {
     -moz-box-shadow: -1px 8px 16px 0 rgba(0, 0, 0, 0.18);
     box-shadow: -1px 8px 16px 0 rgba(0, 0, 0, 0.18);
     float: none;
-    position: absolute;
+    position: static;
     top: 100%;
     left: 0;
     right: 0;
@@ -1768,6 +1768,9 @@ button.btn.btn-block {
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(0px);
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-perspective: 1000;
   }
   .nav2:before,
   .nav2.nav2-tabs:before,
